@@ -48,20 +48,10 @@
 		<remove-project path="packages/apps/Messaging" name="android_packages_apps_Messaging" />
 		<remove-project path="packages/apps/Browser" name="android_packages_apps_Browser" />
 		
-	<!-- UBERTC toolchain 4.9 -->
+	<!-- Remove unused toolchains -->
 		<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 		<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
 		<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-
-
-		<project name="UBERTC/arm-eabi-4.8.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bb" revision="master" />
-		<project name="UBERTC/arm-eabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
-
-		<project name="UBERTC/arm-linux-androideabi-4.8.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bb" revision="master" />
-		<project name="UBERTC/arm-linux-androideabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-
-		<project name="UBERTC/aarch64-linux-android-4.9.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="master" />
-		<project name="UBERTC/aarch64-linux-android-4.9-kernel.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
 		
 	<!-- Useless Device Source-->
 		<remove-project path="device/lge/hammerhead" name="android_device_lge_hammerhead" />
