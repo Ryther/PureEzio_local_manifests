@@ -2,7 +2,7 @@
 <manifest>
 
 	<!-- Scripts to automate the building process and some backups -->
-		<project path="scripts" name="ezio84/scripts" remote="github" revision="mm" />
+		<project path="ezio84/scripts" name="ezio84/scripts" remote="github" revision="mm" />
 		
 	<!-- Ryther misc -->
 		<project name="Ryther/YAOSP_scripts" path="scripts" remote="github" revision="master" />
