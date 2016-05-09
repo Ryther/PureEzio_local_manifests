@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<remote  name="bb"
+		 fetch="https://bitbucket.org/" />
+		 
 	<!-- Scripts to automate the building process and some backups -->
 		<project path="ezio84/scripts" name="ezio84/scripts" remote="github" revision="mm" />
 		
