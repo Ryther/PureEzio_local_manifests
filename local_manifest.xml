@@ -55,6 +55,7 @@
 	<!-- Useless Device Source-->
 		<remove-project path="device/lge/hammerhead" name="android_device_lge_hammerhead" />
 		<remove-project path="device/huawei/angler" name="android_device_huawei_angler" />
+		<remove-project path="device/lge/bullhead" name="android_device_lge_bullhead" />
 		<remove-project path="device/asus/deb" name="android_device_asus_deb" groups="device,flo" remote="pure" revision="mm" />
 		<remove-project path="device/asus/flo" name="android_device_asus_flo" groups="device,flo" remote="pure" revision="mm" />
 		<remove-project path="device/asus/fugu" name="android_device_asus_fugu" groups="device,fugu,broadcom_pdk" remote="pure" revision="mm" />
@@ -70,6 +71,7 @@
 		<remove-project path="kernel/htc/flounder" name="android_kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="pure" revision="mm" />
 		<remove-project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="mm" />
 		<remove-project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" />
+		<remove-project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" />
 		<remove-project path="kernel/huawei/angler" name="android_kernel_huawei_angler" />
 		
 	<!-- Useless Proprietary Vendors -->
