@@ -13,7 +13,6 @@
  -		<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 		
 	<!-- Useless Device Source-->
-		<remove-project path="device/lge/hammerhead" name="android_device_lge_hammerhead" />
 		<remove-project path="device/huawei/angler" name="android_device_huawei_angler" />
 		<remove-project path="device/lge/bullhead" name="android_device_lge_bullhead" />
 		<remove-project path="device/asus/deb" name="android_device_asus_deb" groups="device,flo" remote="pure" revision="mm" />
