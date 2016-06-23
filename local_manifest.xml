@@ -8,7 +8,6 @@
 		<project name="Ryther/scripts" path="Ryther/scripts" remote="github" revision="master" />
 		
 	<!-- Blow shit up!! (Schwarznegger cit) and let the user install apps from playstore if needed -->
-		<remove-project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />
 		<remove-project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" />
 		<remove-project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" />
 		<remove-project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" />
