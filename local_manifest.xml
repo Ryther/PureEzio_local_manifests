@@ -5,7 +5,7 @@
 		 fetch="https://bitbucket.org/" />
 		
 	<!-- Ryther misc -->
-		<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
+		<project name="Ryther/scripts" path="Ryther/scripts" remote="github" revision="master" />
 		
 	<!-- Blow shit up!! (Schwarznegger cit) and let the user install apps from playstore if needed -->
 		<remove-project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />
