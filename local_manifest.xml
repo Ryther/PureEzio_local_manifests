@@ -21,7 +21,7 @@
 		<remove-project path="kernel/lge/hammerhead" name="purenexus_kernel_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2" />
 		
 	<!-- Useless Proprietary Vendors -->
-		<project path="vendor/huawei" name="purenexus_proprietary_vendor_huawei" remote="pure" revision="mm2" />
+		<remove-project path="vendor/huawei" name="purenexus_proprietary_vendor_huawei" remote="pure" revision="mm2" />
 		
 	<!-- bullhead device modded defconfig -->
 		<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="Phasma-UBERTC-7.0_eclipsActive" />
