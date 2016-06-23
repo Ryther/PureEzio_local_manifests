@@ -3,9 +3,6 @@
 
 	<remote  name="bb"
 		 fetch="https://bitbucket.org/" />
-		 
-	<!-- Scripts to automate the building process and some backups -->
-		<project path="ezio84/scripts" name="ezio84/scripts" remote="github" revision="mm" />
 		
 	<!-- Ryther misc -->
 		<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
