@@ -24,7 +24,7 @@
 		<remove-project path="vendor/huawei" name="purenexus_proprietary_vendor_huawei" remote="pure" revision="mm2" />
 		
 	<!-- bullhead device modded defconfig -->
-		<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="Phasma-UBERTC-4.9_eclipsActive" />
+		<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="Phasma-UBERTC-6.0_eclipsActive" />
 
 	<!-- bullhead phasma kernel -->
 		<project name="DespairFactor/bullhead" path="kernel/lge/bullhead" remote="github" revision="maul" />
